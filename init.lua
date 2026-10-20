@@ -812,11 +812,11 @@ require('lazy').setup({
     },
 
     -- Settings for coq
-    init = function()
-      vim.g.coq_settings = {
-        auto_start = true,
-      }
-    end,
+    --init = function()
+    --  vim.g.coq_settings = {
+    --    auto_start = true,
+    --  }
+    --end,
     -- Settings for LSP
     config = function()
       -- LSP settings here
